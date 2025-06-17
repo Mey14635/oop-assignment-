@@ -1,0 +1,18 @@
+import java.util.*;
+public class ArraySortReverse {
+    public static void main(String[] args) {
+        String[] pallets = {"B14", "a11", "B12", "A13"};
+        System.out.println("Sorted Array");
+        Arrays.sort(pallets);
+        for (String pallet : pallets) {
+            System.out.println(" " + pallet);
+        }
+        System.out.println("\nReversed ....");
+        List<String> palletList = Arrays.asList(pallets);
+        Collections.reverse(palletList); // Reverses the order
+        for (String pallet : palletList) {
+            System.out.println("-- " + pallet);
+
+        }
+    }
+}
