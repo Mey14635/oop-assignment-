@@ -10,7 +10,6 @@ import java.util.Scanner;
                 choice = sc.next();
             }
             System.out.println("stop");
-
         }
         public static void main(String[] args) {
             RunTillStop run = new RunTillStop();

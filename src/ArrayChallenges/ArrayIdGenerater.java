@@ -14,5 +14,4 @@ public class ArrayIdGenerater {
             System.out.println(orderId);
         }
     }
-
 }
