@@ -1,3 +1,5 @@
+package ArrayChallenges;
+
 import java.util.Arrays;
 public class ArrayClear {
         public static void main(String[] args) {

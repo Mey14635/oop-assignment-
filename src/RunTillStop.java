@@ -3,7 +3,7 @@ import java.util.Scanner;
         Scanner sc = new Scanner(System.in);
         void showHello() {
             String choice;
-            System.out.println("for hello type h,anything else to stop ");
+            System.out.println("for hello type h,anything else to stop: ");
             choice = sc.next();
             while ("h".equals(choice)) {
                 System.out.println("hello");
@@ -12,6 +12,11 @@ import java.util.Scanner;
             System.out.println("stop");
 
         }
+        public static void main(String[] args) {
+            RunTillStop run = new RunTillStop();
+            run.showHello();
+        }
     }
+
 
 

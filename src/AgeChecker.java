@@ -8,7 +8,7 @@ public class AgeChecker {
         name=scanner.next();
         System.out.print("Age? :");
         age=scanner.nextInt();
-        System.out.println("Hello "+name+",You are "+age+ " springs young");
+        System.out.println("Hello "+name+",You are "+age+ " years old springs young");
     }
     public static void main(String[] args)
     {

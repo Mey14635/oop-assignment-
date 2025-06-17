@@ -7,7 +7,7 @@ public class interest {
 
         interest = 3.0;
         amount = amount * (100 + interest) / 100;
-        System.out.println("After 2 years :" + amount);
+        System.out.println("After 2 years your interest is :" + amount);
 
     }
 

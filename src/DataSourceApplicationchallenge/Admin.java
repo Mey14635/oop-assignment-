@@ -1,3 +1,5 @@
+package DataSourceApplicationchallenge;
+
 public class Admin extends Account
 {
     private String authPassword;

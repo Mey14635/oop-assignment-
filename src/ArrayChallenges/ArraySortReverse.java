@@ -1,7 +1,9 @@
+package ArrayChallenges;
+
 import java.util.*;
 public class ArraySortReverse {
     public static void main(String[] args) {
-        String[] pallets = {"B14", "a11", "B12", "A13"};
+        String[] pallets = {"B14", "A11", "B12", "A13"};
         System.out.println("Sorted Array");
         Arrays.sort(pallets);
         for (String pallet : pallets) {
