@@ -1,4 +1,3 @@
-package ArrayChallenges;
 public class ArraySortElement {
     public static void main (String[] args) {
         String[] orderIds={"M123","M234","B15","G3037","C235"};

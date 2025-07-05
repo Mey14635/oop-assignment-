@@ -1,4 +1,3 @@
-package ArrayChallenges;
 import java.util.Random;
 public class ArrayIdGenerater {
     public static void main(String[] args) {

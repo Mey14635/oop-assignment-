@@ -1,5 +1,3 @@
-package DataSourceApplicationchallenge;
-
 public abstract class Account {
     protected int id;
     protected String name;

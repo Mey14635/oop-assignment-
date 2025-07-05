@@ -1,5 +1,3 @@
-package ArrayChallenges;
-
 import java.util.*;
 public class ArraySortReverse {
     public static void main(String[] args) {
